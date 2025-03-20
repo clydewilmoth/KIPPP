@@ -1,23 +1,27 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import css from "./styles.module.css";
 import Logo from "../../assets/logo.png";
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className={css.home}>
       <img src={Logo} className={css.logo} />
       <div className={css.buttonContainer}>
-        <Link to="/facts">
-          <div className={css.button}>Klimawissen</div>
-        </Link>
-        <Link to="/kippp">
-          <div className={css.button} id={css.middleButton}>
-            Klimakipppunkte
-          </div>
-        </Link>
-        <Link to="/challenge">
-          <div className={css.button}>Wochenchallenge</div>
-        </Link>
+        <div className={css.button} onClick={() => navigate("/facts")}>
+          Klimawissen
+        </div>
+        <div
+          className={css.button}
+          id={css.middleButton}
+          onClick={() => navigate("/kippp")}
+        >
+          Klimakipppunkte
+        </div>
+        <div className={css.button} onClick={() => navigate("/challenge")}>
+          Wochenchallenge
+        </div>
       </div>
     </div>
   );

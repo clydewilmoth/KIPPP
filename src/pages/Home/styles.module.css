@@ -13,6 +13,7 @@
 
 .buttonContainer{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -34,16 +35,34 @@
 }
 
 #middleButton{
-    margin-top: 50px;
+    margin-top: 2em;
+}
+
+@media screen and (width<1100px){
+    .buttonContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #middleButton{
+        margin: 0 auto;
+    }
+
+    .button{
+        margin: 1em auto 1em auto;
+    }
 }
 
 .logo{
-    width: 15em;
+    width: 13em;
 }
 
 a{
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: black;
+    text-align: center;
     &:visited{
         color: black;
     }
