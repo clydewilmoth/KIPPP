@@ -26,6 +26,7 @@
     border: 3px solid black;
     margin: 0 2em 0 2em;
     transition: 0.3s ease-in-out;
+    animation: 0.5s scale-in ease-in-out;
 
     &:hover{
         scale: 110%;
@@ -56,4 +57,14 @@
 
 .logo{
     width: 13em;
+    animation: 0.5s scale-in ease-in-out;
+}
+
+@keyframes scale-in {
+    from{
+        scale: 40%;
+    }
+    to{
+        scale: 100%;
+    }
 }
