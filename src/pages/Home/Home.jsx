@@ -7,15 +7,17 @@ export default function Home() {
     <div className={css.home}>
       <img src={Logo} className={css.logo} />
       <div className={css.buttonContainer}>
-        <div className={css.button}>
-          <Link to="/facts">Facts</Link>
-        </div>
-        <div className={css.button} id={css.middleButton}>
-          <Link to="/kippp">Kippp</Link>
-        </div>
-        <div className={css.button}>
-          <Link to="/challenge">Challenge</Link>
-        </div>
+        <Link to="/facts">
+          <div className={css.button}>Klimawissen</div>
+        </Link>
+        <Link to="/kippp">
+          <div className={css.button} id={css.middleButton}>
+            Klimakipppunkte
+          </div>
+        </Link>
+        <Link to="/challenge">
+          <div className={css.button}>Wochenchallenge</div>
+        </Link>
       </div>
     </div>
   );
