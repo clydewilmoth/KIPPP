@@ -1,0 +1,35 @@
+.home{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    width: fit-content;
+    height: fit-content;
+    padding: 2em;
+    background-color: grey;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+#middleButton{
+    margin-top: 50px;
+}
+
+.logo{
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    &:visited{
+        color: black;
+    }
+}
