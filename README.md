@@ -22,6 +22,8 @@
 **Vorraussetzung für lokalen Build**:
 
 - **Node.js**
+- **Rust**
+- **Git**
 
 **Windows Betriebssystem**:
 
