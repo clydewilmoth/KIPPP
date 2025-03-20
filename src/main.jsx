@@ -13,9 +13,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="facts" element={<Facts />} />
-          <Route path="kippp" element={<Kippp />} />
-          <Route path="challenge" element={<Challenge />} />
+          <Route path="klimawissen" element={<Facts />} />
+          <Route path="klimakipppunkte" element={<Kippp />} />
+          <Route path="wochenchallenge" element={<Challenge />} />
         </Route>
       </Routes>
     </BrowserRouter>

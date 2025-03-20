@@ -31,6 +31,7 @@
         scale: 110%;
         transition: 0.3s ease-in-out;
         background-color: lightgray;
+        cursor: pointer;
     }
 }
 
@@ -55,15 +56,4 @@
 
 .logo{
     width: 13em;
-}
-
-a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    &:visited{
-        color: black;
-    }
 }

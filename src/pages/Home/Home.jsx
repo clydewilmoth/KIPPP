@@ -9,17 +9,20 @@ export default function Home() {
     <div className={css.home}>
       <img src={Logo} className={css.logo} />
       <div className={css.buttonContainer}>
-        <div className={css.button} onClick={() => navigate("/facts")}>
+        <div className={css.button} onClick={() => navigate("/klimawissen")}>
           Klimawissen
         </div>
         <div
           className={css.button}
           id={css.middleButton}
-          onClick={() => navigate("/kippp")}
+          onClick={() => navigate("/klimakipppunkte")}
         >
           Klimakipppunkte
         </div>
-        <div className={css.button} onClick={() => navigate("/challenge")}>
+        <div
+          className={css.button}
+          onClick={() => navigate("/wochenchallenge")}
+        >
           Wochenchallenge
         </div>
       </div>
