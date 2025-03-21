@@ -1,70 +1,94 @@
 .home{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 1.5em;
     width: 100vw;
     height: 100vh;
     font-size: 25px;
-    font-family: "Inter", sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight:600;
     color: black;
+    background-color: #1C1E45;
+    overflow: hidden;
 }
 
 .buttonContainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items:end;
+    
 }
 
 .button{
+    position: relative;
     width: fit-content;
     height: fit-content;
-    padding: 1em;
-    background-color: grey;
-    border-radius: 1.5em;
-    border: 3px solid black;
-    margin: 0 2em 0 2em;
+    padding: 0.69em;
+    margin: 0.8em 0 0.8em 0;
+    background-color: #F80469;
+    color: white;
     transition: 0.3s ease-in-out;
-    animation: 0.5s scale-in ease-in-out;
+    animation: 1s slide-in-left ease-in-out;
 
     &:hover{
-        scale: 110%;
+        translate: -0.9em;
         transition: 0.3s ease-in-out;
-        background-color: lightgray;
         cursor: pointer;
     }
 }
 
-#middleButton{
-    margin-top: 2em;
-}
-
-@media screen and (width<1100px){
-    .buttonContainer{
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #middleButton{
-        margin: 0 auto;
-    }
-
-    .button{
-        margin: 1em auto 1em auto;
-    }
-}
-
 .logo{
-    width: 13em;
-    animation: 0.5s scale-in ease-in-out;
+    position: relative;
+    width: 18em;
+    animation: 1s slide-in-right ease-in-out;
 }
 
-@keyframes scale-in {
-    from{
-        scale: 40%;
+.p{
+    
+    rotate: 33.3deg;
+    width: 0.52em;
+    display: flex;
+    position: absolute;
+    font-size: 5.5em;
+    top: 0.1em;
+    right: 0.1em;
+    animation: 1s rotate ease-in-out;
+}
+
+@keyframes rotate {
+    0%{
+        rotate: 0deg;
+        translate: -0.13em -0.09em;
     }
-    to{
-        scale: 100%;
+    80%{
+        rotate: 0deg;
+        translate: -0.13em -0.09em
+    }
+
+    100%{
+        rotate: 0;
+        translate: 0 ;
+    }
+
+}
+
+@keyframes slide-in-left {
+    0%{
+        translate: -50vw;
+    }
+    80%{
+        translate: 0;
+    }
+}
+
+@keyframes slide-in-right {
+    0%{
+        translate: +50vw;
+    }
+    80%{
+        translate: 0;
     }
 }
