@@ -1,0 +1,16 @@
+.homeMenu{
+    background-color: #F80469;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.8em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    transition: 0.3s ease-in-out;
+
+    &:hover{
+        cursor: pointer;
+        scale: 105%;
+        transition: 0.3s ease-in-out;
+    }
+}
