@@ -55,7 +55,7 @@
     font-size: 5.5em;
     top: 0.1em;
     right: 0.1em;
-    animation: 1.5s rotate ease-in-out;
+    animation: 1.5s rotate ease-out;
 }
 
 @keyframes rotate {
