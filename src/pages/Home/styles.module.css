@@ -31,7 +31,7 @@
     background-color: #F80469;
     color: white;
     transition: 0.3s ease-in-out;
-    animation: 1s slide-in-left ease-in-out;
+    animation: 1.5s slide-in-left ease-in-out;
 
     &:hover{
         translate: -0.9em;
@@ -43,7 +43,7 @@
 .logo{
     position: relative;
     width: 18em;
-    animation: 1s slide-in-right ease-in-out;
+    animation: 1.5s slide-in-right ease-in-out;
 }
 
 .p{
@@ -55,7 +55,7 @@
     font-size: 5.5em;
     top: 0.1em;
     right: 0.1em;
-    animation: 1s rotate ease-in-out;
+    animation: 1.5s rotate ease-in-out;
 }
 
 @keyframes rotate {
@@ -63,11 +63,10 @@
         rotate: 0deg;
         translate: -0.13em -0.09em;
     }
-    80%{
+    60%{
         rotate: 0deg;
         translate: -0.13em -0.09em
     }
-
     100%{
         rotate: 0;
         translate: 0 ;
@@ -79,6 +78,12 @@
     0%{
         translate: -50vw;
     }
+    60%{
+        translate: 0;
+    }
+    70%{
+        translate: -0.5vw;
+    }
     80%{
         translate: 0;
     }
@@ -87,6 +92,12 @@
 @keyframes slide-in-right {
     0%{
         translate: +50vw;
+    }
+    60%{
+        translate: 0;
+    }
+    70%{
+        translate: +0.5vw;
     }
     80%{
         translate: 0;
