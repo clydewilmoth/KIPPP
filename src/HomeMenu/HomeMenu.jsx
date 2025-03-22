@@ -6,7 +6,7 @@ export default function HomeMenu() {
 
   return (
     <div className={css.homeMenu} onClick={() => navigate("/")}>
-      Hauptmenü
+      <div className={css.house}>&#8962;</div>
     </div>
   );
 }

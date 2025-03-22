@@ -13,8 +13,10 @@
     "windows": [
       {
         "title": "KIPPP",
-        "width": 1200,
-        "height": 900
+        "width": 1000,
+        "height": 800,
+        "resizable": false,
+        "fullscreen": false
       }
     ],
     "security": {

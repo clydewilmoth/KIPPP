@@ -1,11 +1,13 @@
 import css from "./styles.module.css";
 import Map from "../../assets/mapwhite.svg";
-import HomeMenu from "../../HomeMenu/HomeMenu";
 import { useState } from "react";
 import Grönland from "../../assets/grönland.mp4";
 import Korallenriff from "../../assets/korallenriff.mp4";
 import Amazonas from "../../assets/amazonas.mp4";
 import Ostantarktis from "../../assets/ostantarktis.mp4";
+import WaterDrop from "../../assets/waterdrop.svg";
+import Flame from "../../assets/flame.svg";
+import Tornado from "../../assets/tornado.svg";
 
 export default function Kippp() {
   const [mapState, setMapState] = useState(1.5);
@@ -15,7 +17,6 @@ export default function Kippp() {
   return (
     <div className={css.kippp}>
       <div className={css.mapTitle}>+{mapState}°C</div>
-
       <input
         type="range"
         min={1.5}
@@ -26,7 +27,7 @@ export default function Kippp() {
         onChange={(event) => {
           setMapState(event.target.value);
         }}
-        disabled={infoVisible ? true : false}
+        style={{ visibility: infoVisible ? "hidden" : "visible" }}
       />
 
       <div className={css.imageContainer}>
@@ -137,9 +138,26 @@ export default function Kippp() {
         >
           &#9654;
         </div>
+        <img
+          src={WaterDrop}
+          className={css.icon}
+          id={css.lvl1}
+          style={{ visibility: mapState > 1.5 ? "visible" : "hidden" }}
+        />
+        <img
+          src={Tornado}
+          className={css.icon}
+          id={css.lvl2}
+          style={{ visibility: mapState > 2 ? "visible" : "hidden" }}
+        />
+        <img
+          src={Flame}
+          className={css.icon}
+          id={css.lvl3}
+          style={{ visibility: mapState > 3 ? "visible" : "hidden" }}
+        />
         <img src={Map} className={css.map} />
       </div>
-      <HomeMenu />
     </div>
   );
 }
