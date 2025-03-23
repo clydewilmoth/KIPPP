@@ -19,11 +19,13 @@ export default function Challenge({
       return;
     }
     const randomIndex = Math.floor(Math.random() * challenges.length);
-    const randomLine = challenges[randomIndex];
+    const randomChallenge = challenges[randomIndex];
 
-    const updatedLines = challenges.filter((_, index) => index !== randomIndex);
-    setChallenges(updatedLines);
-    setChallenge(randomLine);
+    const updatedChallenges = challenges.filter(
+      (_, index) => index !== randomIndex
+    );
+    setChallenges(updatedChallenges);
+    setChallenge(randomChallenge);
     setRollsLeft(rollsLeft - 1);
   };
 

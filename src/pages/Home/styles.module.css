@@ -18,6 +18,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items:end;
+    flex-wrap: wrap;
+    max-height: 12.8em;
+    animation: 1.5s slide-in-left ease-in-out;
     
 }
 
@@ -30,12 +33,11 @@
     background-color: #F80469;
     color: white;
     transition: 0.3s ease-in-out;
-    animation: 1.5s slide-in-left ease-in-out;
     border-top-left-radius: 2em;
     border-bottom-left-radius: 2em;
 
     &:hover{
-        translate: -0.9em;
+        translate: -0.6em;
         transition: 0.3s ease-in-out;
         cursor: pointer;
     }
@@ -57,6 +59,25 @@
     top: 0.1em;
     right: 0.1em;
     animation: 1.5s rotate ease-out;
+}
+
+#questionMark{
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9.9em;
+    width: 1.4em;
+    margin: 0.8em 0 0 1.4em;
+    padding: 0.49em;
+
+    &:hover{
+        translate: 0 -0.6em;
+    }
+}
+
+.calc{
+    width: 100%;
 }
 
 @keyframes rotate {

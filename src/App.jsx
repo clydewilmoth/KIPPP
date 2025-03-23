@@ -14,34 +14,19 @@ export default function App() {
   const [fact, setFact] = useState([]);
 
   useEffect(() => {
-    loadChallenges();
+    loadCsv(setChallenges, "/wochenchallenge.csv");
   }, []);
 
   useEffect(() => {
-    facts.length == 0 && loadFacts();
+    facts.length == 0 && loadCsv(setFacts, "/klimawissen.csv");
   }, [facts]);
 
-  const loadChallenges = async () => {
+  const loadCsv = async (setState, path) => {
     try {
-      const response = await fetch("/wochenchallenge.csv");
+      const response = await fetch(path);
       const text = await response.text();
       const lines = text.split("\n").filter((line) => line.trim() !== "");
-      setChallenges(lines);
-    } catch (error) {}
-  };
-
-  const loadFacts = async () => {
-    try {
-      const response = await fetch("/klimawissen.csv");
-      const text = await response.text();
-
-      const lines = text.split("\n").filter((line) => line.trim() !== "");
-      const parsedFacts = lines.map((line) => {
-        const [name, fact] = line.split(";");
-        return { name, fact };
-      });
-
-      setFacts(parsedFacts);
+      setState(lines);
     } catch (error) {}
   };
 
