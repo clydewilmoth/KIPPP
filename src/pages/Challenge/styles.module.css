@@ -22,14 +22,14 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: #F80469;
+    background-color: #151434;
     padding: 2em;
 }
 
 .text{
     color: white;
     font-family: Helvetica, sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1.5em;
     text-align: center;
 }

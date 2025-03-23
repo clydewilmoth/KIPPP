@@ -25,8 +25,9 @@ export default function Facts({ facts, setFacts, fact, setFact }) {
       <div className={css.card}>
         <div className={css.text}>{fact}</div>
       </div>
-      <div className={css.next} onClick={() => setRandomFact()}>
-        &#10142;
+
+      <div className={css.reroll} onClick={() => setRandomFact()}>
+        &#x21ba;
       </div>
     </div>
   );

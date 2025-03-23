@@ -66,9 +66,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 9.9em;
+    height: 10em;
     width: 1.4em;
-    margin: 0.8em 0 0 1.4em;
+    margin: 0.8em 0 0.8em 1.4em;
     padding: 0.49em;
 
     &:hover{
