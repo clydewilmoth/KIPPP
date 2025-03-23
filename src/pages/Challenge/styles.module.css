@@ -1,0 +1,15 @@
+.challenge{
+    display: flex;
+    background-color: #1C1E45;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    flex-direction: column;
+    height: 100%;
+}
+
+.heading{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}

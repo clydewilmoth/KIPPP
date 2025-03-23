@@ -1,0 +1,22 @@
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg1"
+  sodipodi:docname="Auge.svg" inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+  viewBox="63.47 144.39 75 35.61">
+  <sodipodi:namedview id="namedview1" pagecolor="#505050" bordercolor="#ffffff" borderopacity="1"
+    inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="1"
+    inkscape:deskcolor="#505050" inkscape:document-units="mm" inkscape:zoom="2" inkscape:cx="364"
+    inkscape:cy="601" inkscape:window-width="1440" inkscape:window-height="830"
+    inkscape:window-x="-6" inkscape:window-y="-6" inkscape:window-maximized="1"
+    inkscape:current-layer="layer1" />
+  <defs id="defs1" />
+  <g inkscape:label="Ebene 1" inkscape:groupmode="layer" id="layer1">
+    <path style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+      d="m 101.81107,168.91843 c 0,0 -28.849598,-24.19066 0,0 z" id="path5" />
+    <path
+      d="m 99.841856,144.39059 c -10.986051,0.13796 -23.48915,4.65718 -36.371423,17.80408 39.259957,40.0654 75.000067,-5.2e-4 75.000067,-5.2e-4 -0.006,-0.006 -16.13718,-18.08611 -38.628644,-17.80356 z m 0.828374,2.2965 a 15.5,15.5 0 0 1 15.50034,15.50034 15.5,15.5 0 0 1 -15.50034,15.49983 15.5,15.5 0 0 1 -15.49983,-15.49983 15.5,15.5 0 0 1 15.49983,-15.50034 z"
+      style="fill:#ffffff;stroke-width:0.393176" id="path10" />
+    <circle style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583" id="path11" cx="100.66039"
+      cy="162.40135" r="10" />
+  </g>
+</svg>

@@ -16,6 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2em;
+    padding: 0 0.1em 0.1em 0;
 
     &:hover{
         cursor: pointer;

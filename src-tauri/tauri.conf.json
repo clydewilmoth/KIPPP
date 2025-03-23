@@ -15,8 +15,7 @@
         "title": "KIPPP",
         "width": 1000,
         "height": 800,
-        "resizable": false,
-        "fullscreen": false
+        "resizable": false
       }
     ],
     "security": {

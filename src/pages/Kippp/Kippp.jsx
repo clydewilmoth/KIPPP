@@ -5,9 +5,10 @@ import Grönland from "../../assets/grönland.mp4";
 import Korallenriff from "../../assets/korallenriff.mp4";
 import Amazonas from "../../assets/amazonas.mp4";
 import Ostantarktis from "../../assets/ostantarktis.mp4";
-import WaterDrop from "../../assets/waterdrop.svg";
-import Flame from "../../assets/flame.svg";
+import Wolke from "../../assets/wolke.svg";
+import Feuer from "../../assets/feuer.svg";
 import Tornado from "../../assets/tornado.svg";
+import Auge from "../../assets/auge.svg";
 
 export default function Kippp() {
   const [mapState, setMapState] = useState(1.5);
@@ -94,67 +95,138 @@ export default function Kippp() {
             </div>
           </div>
         </div>
-        <div
+
+        <img
+          src={Auge}
           className={css.openSequence}
           id={css.lvl1}
-          style={{ visibility: mapState == 1.5 ? "visible" : "hidden" }}
+          style={{ opacity: mapState >= 1.5 ? "100%" : "0%" }}
           onClick={() => {
             setInfoVisible(true);
             setShowVideo(true);
+            setMapState(1.5);
           }}
-        >
-          &#9654;
-        </div>
-        <div
+        />
+
+        <img
+          src={Auge}
           className={css.openSequence}
           id={css.lvl2}
-          style={{ visibility: mapState == 2 ? "visible" : "hidden" }}
+          style={{ opacity: mapState >= 2 ? "100%" : "0%" }}
           onClick={() => {
             setInfoVisible(true);
             setShowVideo(true);
+            setMapState(2);
           }}
-        >
-          &#9654;
-        </div>
-        <div
+        />
+
+        <img
+          src={Auge}
           className={css.openSequence}
           id={css.lvl3}
-          style={{ visibility: mapState == 3 ? "visible" : "hidden" }}
+          style={{ opacity: mapState >= 3 ? "100%" : "0%" }}
           onClick={() => {
             setInfoVisible(true);
             setShowVideo(true);
+            setMapState(3);
           }}
-        >
-          &#9654;
-        </div>
-        <div
+        />
+
+        <img
+          src={Auge}
           className={css.openSequence}
           id={css.lvl4}
-          style={{ visibility: mapState == 5 ? "visible" : "hidden" }}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
           onClick={() => {
             setInfoVisible(true);
             setShowVideo(true);
+            setMapState(5);
           }}
-        >
-          &#9654;
-        </div>
+        />
+
         <img
-          src={WaterDrop}
+          src={Wolke}
           className={css.icon}
-          id={css.lvl1}
-          style={{ visibility: mapState > 1.5 ? "visible" : "hidden" }}
+          id={css.ico1}
+          style={{ opacity: mapState >= 1.5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Wolke}
+          className={css.icon}
+          id={css.ico2}
+          style={{ opacity: mapState >= 1.5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Wolke}
+          className={css.icon}
+          id={css.ico3}
+          style={{ opacity: mapState >= 1.5 ? "100%" : "0%" }}
         />
         <img
           src={Tornado}
           className={css.icon}
-          id={css.lvl2}
-          style={{ visibility: mapState > 2 ? "visible" : "hidden" }}
+          id={css.ico4}
+          style={{ opacity: mapState >= 2 ? "100%" : "0%" }}
         />
         <img
-          src={Flame}
+          src={Feuer}
           className={css.icon}
-          id={css.lvl3}
-          style={{ visibility: mapState > 3 ? "visible" : "hidden" }}
+          id={css.ico5}
+          style={{ opacity: mapState >= 2 ? "100%" : "0%" }}
+        />
+        <img
+          src={Feuer}
+          className={css.icon}
+          id={css.ico6}
+          style={{ opacity: mapState >= 3 ? "100%" : "0%" }}
+        />
+        <img
+          src={Feuer}
+          className={css.icon}
+          id={css.ico7}
+          style={{ opacity: mapState >= 3 ? "100%" : "0%" }}
+        />
+        <img
+          src={Tornado}
+          className={css.icon}
+          id={css.ico8}
+          style={{ opacity: mapState >= 3 ? "100%" : "0%" }}
+        />
+        <img
+          src={Feuer}
+          className={css.icon}
+          id={css.ico9}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Feuer}
+          className={css.icon}
+          id={css.ico10}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Feuer}
+          className={css.icon}
+          id={css.ico11}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Tornado}
+          className={css.icon}
+          id={css.ico12}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Tornado}
+          className={css.icon}
+          id={css.ico13}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Wolke}
+          className={css.icon}
+          id={css.ico14}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
         />
         <img src={Map} className={css.map} />
       </div>

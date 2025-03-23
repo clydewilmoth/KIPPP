@@ -1,6 +1,5 @@
 .kippp{
     display: flex;
-    overflow: hidden;
     background-color: #1C1E45;
     justify-content: center;
     align-items: center;
@@ -10,12 +9,15 @@
 }
 
 .openSequence{
-    position: absolute;
-    font-size: 1em;
-    padding: 0.8em 1em 0.9em 1em;
-    color: white;
     background-color: #F80469;
-    transition: translate 0.3s ease-in-out;
+    padding: 0.5em;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    opacity: 70%;
+    transition: 0.3s ease-in-out, opacity 0.5s ease-in-out;
+    z-index: 2;
 
     &:hover{
         cursor: pointer;
@@ -25,26 +27,96 @@
 }
 
 #lvl1{
-    left: 36%;
+    left: 35%;
     top: 7%;
 }
 #lvl2{
     right: 10%;
-    top: 78%;
+    top: 60%;
 }
 #lvl3{
     right: 23%;
-    top: 18%;
+    top: 15%;
 }
 #lvl4{
-    left: 50%;
+    right: 23%;
     top: 88%;
 }
 
 .icon{
     position: absolute;
     width: 3.5em;
-    filter: invert(17%) sepia(97%) saturate(3735%) hue-rotate(325deg) brightness(92%) contrast(111%);
+    transition: 0.5s ease-in-out;
+}
+
+#ico1{
+    top: 35%;
+    left: 13%;
+}
+
+#ico2{
+    top: 26%;
+    right: 40%;
+}
+
+#ico3{
+    top: 40%;
+    right: 19%;
+}
+
+#ico4{
+    top: 32%;
+    left: 23%;
+}
+
+#ico5{
+    top: 42%;
+    left: 44%;
+}
+
+#ico6{
+    top: 57%;
+    left: 24.5%;
+}
+
+#ico7{
+    top: 13%;
+    right: 13%;
+}
+
+#ico8{
+    top: 24%;
+    left: 45%;
+}
+
+#ico9{
+    top: 54%;
+    left: 31%;
+}
+
+#ico10{
+    top: 46%;
+    left: 53%;
+}
+
+#ico11{
+    top: 20%;
+    right: 18%;
+}
+
+#ico12{
+    top: 46%;
+    left: 18%;
+}
+
+#ico13{
+    top: 34%;
+    right: 43%;
+}
+
+#ico14{
+    top: 42%;
+    right: 28%;
 }
 
 .range{
@@ -52,16 +124,18 @@
     height: 0.5em;
     -webkit-appearance: none; 
     appearance: none;
-    background: white;
+    background: #7F7EA0;
+    border-radius: 1em;
     outline: none;
     margin: 2em 0 2em 0;
 
     &::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-        width: 1em; 
-        height: 1.6em; 
+        width: 1.5em; 
+        height: 1.5em; 
         background: #F80469; 
+        border-radius: 2em;
         cursor: pointer;
     }
 }
@@ -106,7 +180,7 @@
     width: 100%;
     height: 100%;
     background-color: #1C1E45;
-    z-index: 2;
+    z-index: 3;
 }
 
 .text{
@@ -137,6 +211,7 @@
     font-weight: bold;
     margin-top: 1em;
     transition: translate 0.3s ease-in-out;
+    border-radius: 2em;
 
     &:hover{
         cursor: pointer;

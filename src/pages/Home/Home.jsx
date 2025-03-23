@@ -13,7 +13,7 @@ export default function Home() {
           className={css.button}
           onClick={() => navigate("/wochenchallenge")}
         >
-          Wochen Challenge
+          Wochenchallenge
         </div>
         <div
           className={css.button}

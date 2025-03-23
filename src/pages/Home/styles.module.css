@@ -31,6 +31,8 @@
     color: white;
     transition: 0.3s ease-in-out;
     animation: 1.5s slide-in-left ease-in-out;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
 
     &:hover{
         translate: -0.9em;
