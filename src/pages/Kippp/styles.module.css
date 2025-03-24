@@ -27,8 +27,8 @@
 }
 
 #lvl1{
-    left: 35%;
-    top: 7%;
+    left: 37%;
+    top: 4%;
 }
 #lvl2{
     right: 10%;
@@ -46,6 +46,7 @@
 .icon{
     position: absolute;
     width: 3.5em;
+    max-height: 3.5em;
     transition: 0.5s ease-in-out;
 }
 
@@ -117,6 +118,16 @@
 #ico14{
     top: 42%;
     right: 28%;
+}
+
+#ico15{
+    left: 33%;
+    top: 10%;
+}
+
+#ico16{
+    right: 28.5%;
+    top: 88%;
 }
 
 .range{

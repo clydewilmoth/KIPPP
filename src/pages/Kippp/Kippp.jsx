@@ -8,6 +8,7 @@ import Ostantarktis from "../../assets/schmelzen.mp4";
 import Wolke from "../../assets/wolke.svg";
 import Feuer from "../../assets/feuer.svg";
 import Tornado from "../../assets/tornado.svg";
+import Tropfen from "../../assets/tropfen.svg";
 import Auge from "../../assets/auge.svg";
 
 //Klimakipppunkte Komponente
@@ -154,6 +155,12 @@ export default function Kippp() {
         />
 
         <img
+          src={Tropfen}
+          className={css.icon}
+          id={css.ico15}
+          style={{ opacity: mapState >= 1.5 ? "100%" : "0%" }}
+        />
+        <img
           src={Wolke}
           className={css.icon}
           id={css.ico1}
@@ -235,6 +242,12 @@ export default function Kippp() {
           src={Wolke}
           className={css.icon}
           id={css.ico14}
+          style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
+        />
+        <img
+          src={Tropfen}
+          className={css.icon}
+          id={css.ico16}
           style={{ opacity: mapState >= 5 ? "100%" : "0%" }}
         />
         <img src={Map} className={css.map} />
