@@ -34,11 +34,17 @@
     right: 10%;
     top: 60%;
 }
+
 #lvl3{
+    right: 22%;
+    top: 12%;
+}
+
+#lvl4{
     left: 32%;
     bottom: 32%;
 }
-#lvl4{
+#lvl5{
     right: 23%;
     top: 88%;
 }
