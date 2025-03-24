@@ -7,7 +7,7 @@ export default function Facts({ facts, setFacts, fact, setFact }) {
   //Ruft beim ersten Render der Komponente automatisch setRandomFact() auf
   useEffect(() => {
     //Must equal klimawissen.csv's amount of lines
-    facts.length == 47 && setRandomFact();
+    facts.length == 41 && setRandomFact();
   }, []);
 
   //Bei Methodenaufruf wird der angezeigte Fakt zufällig generiert
