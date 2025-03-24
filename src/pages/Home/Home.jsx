@@ -70,12 +70,12 @@ export default function Home() {
               Klimawissen
             </div>
 
-            <div className={css.button} id={css.questionMark}>
-              <img
-                src={Calculator}
-                className={css.calc}
-                onClick={() => navigate("/rechner")}
-              />
+            <div
+              className={css.button}
+              id={css.calc}
+              onClick={() => navigate("/rechner")}
+            >
+              <img src={Calculator} className={css.calc} />
             </div>
           </div>
           <div className={css.logo}>

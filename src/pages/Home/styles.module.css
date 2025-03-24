@@ -61,7 +61,7 @@
     animation: 1.5s rotate ease-out;
 }
 
-#questionMark{
+#calc{
     border-radius: 0;
     display: flex;
     justify-content: center;
