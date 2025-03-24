@@ -1,12 +1,12 @@
 # KIPPP
 
-**KIPPP** ist ein modernes Desktop-Anwendungsprojekt, das auf **Tauri**, **Vite** und **React** basiert. Die Anwendung kombiniert die Leistungsfähigkeit und Sicherheit von Rust für das Backend mit der Flexibilität von React für das Frontend. Das Projekt zielt darauf ab, eine benutzerfreundliche und effiziente Lösung für die Verarbeitung und Darstellung von Daten aus CSV-Dateien zu bieten.
+**KIPPP** ist ein modernes Desktop-Anwendungsprojekt, das auf **Tauri**, **Vite** und **React** basiert. Die Anwendung soll die aktuellen Klimakipppunkte der Welt auf einer Karte verdeutlichen und spielerisch dabei helfen den eigenen CO₂ Fußabdruck zu verringern. Die App zeigt schockierende Klima Fakten und stellt dem Nutzer vor wöchentlichen Herausforderungen, welche einfach in den Alltag integriert werden können. Ebenfalls ist ein sorgfältig ausgesuchter CO₂ Rechner verlinkt.
 
 ## Technologien
 
 - **Frontend**: React (JavaScript)
-- **Backend**: Rust
-- **Framework/Build-Tool**: Vite/Tauri
+- **Build-Basis**: Rust
+- **Build-Tool/Framework**: Tauri/Vite
 - **Datenverarbeitung**: CSV-Dateien
 
 ## Team
