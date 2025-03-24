@@ -1,6 +1,6 @@
 # KIPPP
 
-**KIPPP** ist ein modernes Desktop-Anwendungsprojekt, das auf **Tauri**, **Vite** und **React** basiert. Die Anwendung soll die aktuellen KlimaKIPPPunkte der Welt auf einer Karte verdeutlichen und spielerisch dabei helfen den eigenen CO₂ Fußabdruck zu verringern. Die App zeigt schockierende Klima Fakten und stellt dem Nutzer vor wöchentlichen Herausforderungen, welche einfach in den Alltag integriert werden können. Ebenfalls ist ein sorgfältig ausgesuchter CO₂ Rechner verlinkt.
+**KIPPP** ist ein modernes Desktop-Anwendungsprojekt, das auf **Tauri**, **Vite** und **React** basiert. Die Anwendung soll die aktuellen KlimaKIPPPunkte der Welt auf einer Karte verdeutlichen und spielerisch dabei helfen den eigenen CO₂ Fußabdruck zu verringern. Die App zeigt schockierende Klima Fakten und stellt dem Nutzer vor wöchentliche Herausforderungen, welche einfach in den Alltag integriert werden können. Ebenfalls ist ein sorgfältig ausgesuchter CO₂ Rechner verlinkt.
 
 ## Technologien
 
