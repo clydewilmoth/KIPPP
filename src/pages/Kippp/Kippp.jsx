@@ -80,7 +80,7 @@ export default function Kippp() {
                 : infoState == 2
                 ? "Korallenriffe sterben"
                 : infoState == 3
-                ? "Permafrost aus Borealen Nadelwäldern schmilzt"
+                ? "Permafrost schmilzt"
                 : infoState == 4
                 ? "Amazonas stirbt"
                 : infoState == 5
@@ -93,7 +93,7 @@ export default function Kippp() {
                 : infoState == 2
                 ? "Bei einer Erwärmung um mehr als 2 Grad könnten bereits 99 Prozent aller Korallen verschwunden sein. Korallen stoßen in zu warmem Wasser die Algen ab, die ihnen als Nahrung dienen, und werden weiß. Mehr CO₂ im Wasser führt auch zu einer Versauerung des Wassers, wodurch die Korallen schlechter Kalkskelette aufbauen können und dadurch langsamer und schwächer wachsen."
                 : infoState == 3
-                ? "Nadelwald ..."
+                ? "Der Permafrost speichert etwa 50 % des weltweiten Bodenkohlenstoffs, doch seine Erwärmung um bis zu 4°C seit 1990 führt zur Freisetzung dieses Kohlenstoffs. Bis 2100 könnte der Permafrost 15 % seines gespeicherten Kohlenstoffs verlieren, was die globale Erwärmung um bis zu 0,27°C verstärken würde. Trotz erhöhter Kohlenstoffaufnahme durch Wälder überwiegen langfristig die Verluste. Ein großes Problem ist, dass auftauender Permafrost eine unkontrollierbare Treibhausgasquelle darstellt, die die Erwärmung auch nach dem Ende menschlicher Emissionen weiter antreibt."
                 : infoState == 4
                 ? "Bei einer Erderwärmung von 3 °C droht der Amazonas-Regenwald großflächig zu kollabieren. Weniger Niederschlag und häufigere Dürren könnten dazu führen, dass sich der Wald in eine trockene Savanne oder sogar eine wüstenähnliche Landschaft verwandelt. Dies würde nicht nur die Biodiversität drastisch reduzieren, sondern auch enorme Mengen an CO₂ freisetzen, was den Klimawandel weiter beschleunigt. Zudem würden regionale Wetterveränderungen, wie der Zusammenbruch des südamerikanischen Wasserkreislaufs, die Landwirtschaft und Wasserversorgung massiv gefährden."
                 : infoState == 5
