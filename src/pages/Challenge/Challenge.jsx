@@ -14,7 +14,7 @@ export default function Challenge({
   //Ruft beim ersten Render der Komponente automatisch setRandomChallenge() auf
   useEffect(() => {
     //Must equal wochenchallenge.csv's amount of lines
-    challenges.length == 50 && setRandomChallenge();
+    challenges.length == 30 && setRandomChallenge();
   }, []);
 
   //Bei Methodenaufruf wird die angezeigte Challenge zufällig generiert
