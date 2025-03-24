@@ -1,5 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-<g fill="#ffffff" stroke="none">
-<path d="M20 2v20h-16v-20h16zm2-2h-20v24h20v-24zm-13 21h-4v-3h4v3zm0-4h-4v-3h4v3zm0-4h-4v-3h4v3zm5 8h-4v-3h4v3zm0-4h-4v-3h4v3zm0-4h-4v-3h4v3zm5 8h-4v-7h4v7zm0-8h-4v-3h4v3zm0-10h-14v5h14v-5z"/>
-</g>
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg1" inkscape:version="1.4 (86a8ad7, 2024-10-11)" sodipodi:docname="Calculator.svg" viewBox="53.58 84.41 94.79 122.37">
+  <sodipodi:namedview id="namedview1" pagecolor="#505050" bordercolor="#ffffff" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="1" inkscape:deskcolor="#505050" inkscape:document-units="mm" inkscape:zoom="0.73827583" inkscape:cx="266.83794" inkscape:cy="539.09391" inkscape:window-width="1440" inkscape:window-height="830" inkscape:window-x="-6" inkscape:window-y="-6" inkscape:window-maximized="1" inkscape:current-layer="layer1"/>
+  <defs id="defs1"/>
+  <g inkscape:label="Ebene 1" inkscape:groupmode="layer" id="layer1">
+    <path d="m 62.746275,84.414411 c -5.076545,0 -9.163202,3.663519 -9.163202,8.214523 V 198.57063 c 0,4.551 4.086657,8.21452 9.163202,8.21452 h 76.459855 c 5.07655,0 9.16321,-3.66352 9.16321,-8.21452 V 92.628934 c 0,-4.551004 -4.08666,-8.214523 -9.16321,-8.214523 z m 7.59943,7.744914 h 61.278615 c 5.07655,0 9.1632,3.664081 9.1632,8.215085 v 89.67681 c 0,4.551 -4.08665,8.21452 -9.1632,8.21452 H 70.345705 c -5.076545,0 -9.163736,-3.66352 -9.163736,-8.21452 v -89.67681 c 0,-4.551004 4.087191,-8.215085 9.163736,-8.215085 z" style="fill:#ffffff;stroke-width:0.279554" id="path2"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect2" width="62.388607" height="20.136997" x="70.059616" y="100.4852" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect3" width="16.530331" height="38.90004" x="115.6188" y="153.53842" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect4" width="16.530331" height="17.288906" x="94.135521" y="174.88416" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect4-8" width="16.530331" height="17.288906" x="93.901459" y="153.7836" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect4-5" width="16.530331" height="17.288906" x="72.073441" y="174.90244" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect4-8-5" width="16.530331" height="17.288906" x="71.839378" y="153.8019" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect4-8-52" width="16.530331" height="17.288906" x="94.229866" y="132.58051" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect4-8-52-3" width="16.530331" height="17.288906" x="115.63091" y="132.00868" rx="4.7203317" ry="4.5359344"/>
+    <rect style="fill:#ffffff;fill-opacity:1;stroke-width:0.279554" id="rect4-8-5-6" width="16.530331" height="17.288906" x="72.16777" y="132.59883" rx="4.7203317" ry="4.5359344"/>
+  </g>
 </svg>

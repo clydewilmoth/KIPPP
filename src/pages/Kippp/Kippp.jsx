@@ -1,10 +1,10 @@
 import css from "./styles.module.css";
 import Map from "../../assets/mapwhite.svg";
 import { useState } from "react";
-import Grönland from "../../assets/grönland.mp4";
+import Grönland from "../../assets/schmelzen.mp4";
 import Korallenriff from "../../assets/korallenriff.mp4";
 import Amazonas from "../../assets/amazonas.mp4";
-import Ostantarktis from "../../assets/ostantarktis.mp4";
+import Ostantarktis from "../../assets/schmelzen.mp4";
 import Wolke from "../../assets/wolke.svg";
 import Feuer from "../../assets/feuer.svg";
 import Tornado from "../../assets/tornado.svg";
