@@ -10,12 +10,21 @@ import Feuer from "../../assets/feuer.svg";
 import Tornado from "../../assets/tornado.svg";
 import Auge from "../../assets/auge.svg";
 
+//Klimakipppunkte Komponente
 export default function Kippp() {
+  //Zustandvariablen für aktuellen Stand der Karte,
+  //Sichtbarkeit der Informationen über ein Auge
+  //und Sichtbarkeit des Informationsvideos
   const [mapState, setMapState] = useState(1.5);
   const [infoVisible, setInfoVisible] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
 
   return (
+    //Karte verändert sich basierend auf dem aktuellen Kartenzustand,
+    //der per Slider anpassbar ist und jederzeit angezeigt wird
+    //Abhängig vom geklickten Auge wird Informationsvideo mit Text angezeigt und
+    //automatisch auf den darauf folgenden Kartenzustand weitergeleitet
+    //Sichtbarkeit von allen Icons hängt von dem Kartenzustand ab
     <div className={css.kippp}>
       <div className={css.mapTitle}>+{mapState}°C</div>
       <input

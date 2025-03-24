@@ -6,12 +6,17 @@ import P from "../../assets/p.svg";
 import Calculator from "../../assets/calc.svg";
 import { useState } from "react";
 
+//Startseite Komponente
 export default function Home() {
   const navigate = useNavigate();
+  //Zustandvariablen als Counter für das Legacy Feature
   const [pClicked, setPClicked] = useState(0);
   const [homeClicked, setHomeCliked] = useState(0);
 
   return (
+    //Wenn der Hintergrund genau 9 mal geklickt wird und das gekippte P genau einmal gedklickt wird,
+    //dann wechselt die Homepage zu unserem ersten Prototypen
+    //Simple Navigation Homepage zwischen allen verfügbaren Routen und externen Verweis auf guten Rechner
     <>
       {pClicked == 1 && homeClicked == 10 ? (
         <div className={css.homeLegacy}>

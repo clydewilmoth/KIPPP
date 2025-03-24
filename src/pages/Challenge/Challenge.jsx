@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import css from "./styles.module.css";
 
+//Wochenchallenge Komponente
+//Eingabeparameter der Komponentenfunktion sind gloabale Zustandsvariablen, importiert von der App Komponente
 export default function Challenge({
   challenge,
   setChallenge,
@@ -9,11 +11,15 @@ export default function Challenge({
   challenges,
   setChallenges,
 }) {
+  //Ruft beim ersten Render der Komponente automatisch setRandomChallenge() auf
   useEffect(() => {
     //Must equal wochenchallenge.csv's amount of lines
     challenges.length == 50 && setRandomChallenge();
   }, []);
 
+  //Bei Methodenaufruf wird die angezeigte Challenge zufällig generiert
+  //und die generierte Challenge wird aus dem Pool von allen verfügbaren Challenges -> Zustandsvariable challenges gelöscht
+  //Reroll Counter wird um eins runtergesetzt -> Insgesamt nach Start der App maximal 3 mal rerollbar
   const setRandomChallenge = async () => {
     if (challenges.length === 0) {
       return;
@@ -30,6 +36,9 @@ export default function Challenge({
   };
 
   return (
+    //Zustandsvariable challenge und rollsLeft werden angezeigt
+    //Bei Klick auf den Reroll Button wird setRandomChallenge() aufgerufen
+
     <div className={css.challenge}>
       <div className={css.heading}>Wochenchallenge</div>
       <div className={css.card}>
