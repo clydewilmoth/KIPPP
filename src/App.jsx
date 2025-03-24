@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Facts from "./pages/Facts/Facts";
 import Kippp from "./pages/Kippp/Kippp";
 import Challenge from "./pages/Challenge/Challenge";
+import Calculator from "./pages/Calculator/Calculator";
 import { useState, useEffect } from "react";
 
 //Gesamte App Komponente (Überkomponente)
@@ -70,6 +71,7 @@ export default function App() {
               />
             }
           />
+          <Route path="rechner" element={<Calculator />} />
         </Route>
       </Routes>
     </BrowserRouter>

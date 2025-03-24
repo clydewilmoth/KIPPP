@@ -69,14 +69,14 @@ export default function Home() {
             >
               Klimawissen
             </div>
-            <a
-              href="https://www.sauberenergie.de/engagement/co2-rechner"
-              target="_blank"
-            >
-              <div className={css.button} id={css.questionMark}>
-                <img src={Calculator} className={css.calc} />
-              </div>
-            </a>
+
+            <div className={css.button} id={css.questionMark}>
+              <img
+                src={Calculator}
+                className={css.calc}
+                onClick={() => navigate("/rechner")}
+              />
+            </div>
           </div>
           <div className={css.logo}>
             <img src={Logo} />
