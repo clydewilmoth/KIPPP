@@ -61,7 +61,7 @@ export default function Kippp() {
                     ? Korallenriff
                     : infoState == 3
                     ? Nadelwald
-                    : mapState == 4
+                    : infoState == 4
                     ? Amazonas
                     : Ostantarktis
                 }
@@ -80,7 +80,7 @@ export default function Kippp() {
                 : infoState == 2
                 ? "Korallenriffe sterben"
                 : infoState == 3
-                ? "Nadelwald ..."
+                ? "Permafrost aus Borealen Nadelwäldern schmilzt"
                 : infoState == 4
                 ? "Amazonas stirbt"
                 : infoState == 5
